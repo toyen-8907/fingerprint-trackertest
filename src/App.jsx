@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <h2>釣魚測試連結產生器</h2>
+      <h2>測試連結產生器</h2>
       <input
         type="text"
         value={url}
